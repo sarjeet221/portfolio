@@ -6,7 +6,9 @@
 
 }
 
-
+a{
+    text-decoration: none;
+}
 
 .flex-justify {
     display: flex;
@@ -171,6 +173,13 @@
     display: grid;
     width: 18vw;
     height: 19vw;
+    transition: all 500ms ease-in-out;
+    
+    
+}
+
+.card:hover{
+    box-shadow: #f5ecec 0px 0px 20px 13px
 }
 
 .card-img {
@@ -236,7 +245,7 @@
     }
 
     .height-first-div {
-        height: 43vh;
+        height: 45vh;
 
     }
 
@@ -278,7 +287,7 @@
     }
 
     .card {
-        height: 30vh;
+        height: 40vh;
         margin: 4% 0;
         width: 87vw;
 
