@@ -64,6 +64,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 
@@ -305,6 +306,11 @@ font-size: x-large;
 .card .pera-l{
 font-size: xx-large;
 }
+.arrowimg {
+  rotate: 90deg;
+
+
+}
 
 
 }
@@ -319,6 +325,11 @@ font-size: xx-large;
     flex-direction: column;
     
 }
+.arrowimg {
+    rotate: 90deg;
+  
+  
+  }
 .two-box-width{
    width: 100%;
 }
